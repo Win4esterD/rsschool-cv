@@ -26,6 +26,7 @@ Starting my work from scratch, I chose Python as my first programming language a
 In February 2022 I applied and got accepted to perform my internship as "Trainee Python Developer" in [iTechArt](https://www.itechart.by/ "iTechArt") company. Even though I didn't receive a job offer from the company, because my experience was not sufficient to accomplish all the tasks until the deadline, I had obtained some experience of working with Django framework, automated testing with Python by using PyTest for testing API of Django projects. Practiced database management using SQL and Django ORM.   
 
 After the internship, I decided to gain more experience with HTML, CSS and Javascript. Since May until August I've learnt the basics of these technologies and gained experience of creating landing pages using Figma layouts. Links to my works you can find below in this CV. In August 2022 I've learnt about RS School Front-end developer training in September and took my chance to apply to it.  
+
 ---
 
 ## Skills and Proficiency:  
