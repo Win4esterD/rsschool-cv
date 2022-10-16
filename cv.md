@@ -27,6 +27,7 @@ In February 2022 I applied and got accepted to perform my internship as "Trainee
 
 After the internship, I decided to gain more experience with HTML, CSS and Javascript. Since May until August I've learnt the basics of these technologies and gained experience of creating landing pages using Figma layouts. Links to my works you can find below in this CV. In August 2022 I've learnt about RS School Front-end developer training in September and took my chance to apply to it.  
 
+
 ---
 
 ## Skills and Proficiency:  
@@ -115,6 +116,7 @@ module.exports = GuessingGame;
 
 Project    | GitHub Link | Technologies  | Publishment link|
 :---------:|:-----------:| :-----------: | :----------------:|
+Online Zoo |[Online zoo](https://github.com/Win4esterD/online-zoo "Online zoo")|HTML, CSS, Javascript| [published](https://online-zoo-hvy8-d8a4t2c4l-win4esterd.vercel.app/ "published")|
 URL_Shortner |[Url_Shortner](https://github.com/Win4esterD/URL_Shortner "Url_Shortner")|Python, Django, HTML, CSS| [published](http://win4esterd.pythonanywhere.com/ "published")|
 Travel LP |[Travel](https://github.com/Win4esterD/travel "Travel")|HTML, CSS, Javascript|[published](https://travel-ten-rust.vercel.app/ "published")|
 PiperNet |[PiperNet](https://github.com/Win4esterD/PiperNet_landing_page "PiperNet")|HTML, CSS|[published](https://piper-net-landing-page.vercel.app/ "published")|
