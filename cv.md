@@ -36,6 +36,7 @@ After the internship, I decided to gain more experience with HTML, CSS and Javas
 * CSS
 * Javascript
 * DOM
+* Node JS
 * Python
 * Django
 * Pytest
@@ -46,14 +47,9 @@ After the internship, I decided to gain more experience with HTML, CSS and Javas
 * Photoshop
 * Figma
 * VS Code
-* PyCharm
-* Atom
 * Linux
 * Windows
 * Adobe Muse
-* Microsoft Word
-* Microsoft Excel
-* Microsoft Power Point
 * English Language (B2 level)
 * Spanish Language (B1 level)
 * Russian Language (native)
