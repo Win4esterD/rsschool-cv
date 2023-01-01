@@ -32,11 +32,11 @@ After the internship, I decided to gain more experience with HTML, CSS and Javas
 
 ## Skills and Proficiency:  
 
-* HTML
-* CSS
+* HTML/CSS
 * Javascript
 * DOM
 * Node JS
+* Webpack
 * Python
 * Django
 * Pytest
@@ -54,58 +54,6 @@ After the internship, I decided to gain more experience with HTML, CSS and Javas
 * Spanish Language (B1 level)
 * Russian Language (native)
 
----
-
-## Code example:  
-
->Your task is to implement `GuessingGame` class
->#### Methods:
->##### `setRange(min, max)`
->this method accepts min and max value of range of number to guess
->##### `guess()`
->this method returns solution candidate (you make an assumption based on range and previous assumptions)
->##### `lower()`
->this method is called if prev call of `guess()` returned number which is greater than answer
->##### `greater()`
->this method is called if prev call of `guess()` returned number which is lower than answer
->Your implementation should use [binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm) under the hood to pass all tests.
-
-```
-class GuessingGame {
-    constructor() {}
-  
-    setRange(min, max) {
-        this.min = min;
-        this.max = max;
-        this.arr = [];
-        for (let i = this.min; i <= this.max; i++){
-          this.arr.push(i);
-        }
-    }
-  
-    guess() {
-        return this.arr[Math.round((this.arr.length-1) / 2)];
-    }
-  
-    lower() {
-        this.max = this.guess();
-        this.arr = [];
-        for (let i = this.min; i <= this.max; i++){
-          this.arr.push(i);
-        }
-    }
-  
-    greater() {
-        this.min = this.guess();
-        this.arr = [];
-        for (let i = this.min; i <= this.max; i++){
-          this.arr.push(i);
-        }
-    }
-  }
-
-module.exports = GuessingGame;
-```
 ---
 
 ## My projects:
@@ -188,8 +136,3 @@ When I worked on position of "Marketing specialist", I used to perform conversat
 According to this [English test facility](https://examinator.epam.com/Main/PersonalAssignments/475976 "English test"), my level is B2.  I have strong conversation skill, capable of listening and understanding native speakers, can perform business conversations, read fiction and technical literature related to IT industry, especially programming.
 
 During my journey of studying programming, English helped me a lot on several occasions. I used it to find necessary information in technical documentation of Django framework, to complete the task related with database management using Django ORM, also used English to find the way to create my proper HTTP protocol by using only Socket or SocketServer library (It was the task from my internship in iTechArt company, which I successfully accomplished.) Also I used English for reading the book "Ben Shaw - Web development with Django". These are not the only occasions when I used English, but these are most significant and memorable.
-
-***
-### **Experience of using Spanish Language**
-
-Started learning Spanish in February 2019, because I came to the conclusion that knowledge of only one foreign language (English) wasn't impressive enough. During my journey of learning Spanish, I used such resources as the book "Full Course of Spanish Language by R. Gonsales and R. Alimova". Also, I used applications: Memrise, Busuu, SpanishDict to gain bigger vocabulary. Practiced Spanish by communicating with Spanish speaking people in the Discord app, developed my speaking and writing skills. Now I can spend hours speaking with the natives of Spanish and hope it would find its use in my career of Web Developer.
