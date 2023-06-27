@@ -10,7 +10,9 @@ code{
 
 @media (max-width: 381px){
   code{
+    display: block;
     position: relative;
-    left: -3rem;
+    left: -3em;
+    background: #FFF;
   }
 }
