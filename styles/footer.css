@@ -1,0 +1,59 @@
+footer{
+  display: flex;
+  margin-top: 2rem;
+  background: black;
+  height: 6.25rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.github{
+  display: flex;
+}
+
+.year-of-project{
+  color: #fff;
+  font-family: var(--main-font-family);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* .rs-link{
+  position: absolute;
+  right: 2em;
+  margin-top: 0.7em;
+} */
+
+.github__name{
+  color: #fff;
+  font-family: var(--main-font-family);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+.rs-link__img{
+  width: 120px;
+  height: 40px;
+}
+
+@media (max-width: 501px){
+  .github__img{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .rs-link__img{
+    width: 100px;
+    height: 33px;
+  }
+
+  .github__name{
+    font-size: 1.1rem;
+    margin-left: 0.3rem;
+  }
+
+  .year-of-project{
+    font-size: 1.1rem;
+  }
+}
