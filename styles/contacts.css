@@ -27,9 +27,10 @@ hr{
   margin-top: 1em;
 }
 
-.contact-info__p{
+.contact-info__li{
   font-size: 1.1em;
   padding: 0.5em 0em 0.5em 0em;
+  list-style-type: none;
 }
 
 .contact-info__img{
