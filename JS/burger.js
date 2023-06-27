@@ -7,7 +7,7 @@ class BurgerMenu{
       this.minHeight = minHeight;
       this.maxHeight = maxHeight;
       this.display = displayProperty;
-}
+  }
 
 activate(){
   this.menu.addEventListener('click', () => {
@@ -25,12 +25,14 @@ activate(){
   });
 
   this.main.addEventListener('click', () => {
-    this.header.style.height = `${this.minHeight}`;
-    this.navigation.style.opacity = '0';
-    this.navigation.style.display = 'none';
-    setTimeout(() => this.navigation.style.display = 'none', 500)
+    if(window.innerWidth <= 660){
+      this.header.style.height = `${this.minHeight}`;
+      this.navigation.style.opacity = '0';
+      this.navigation.style.display = 'none';
+      setTimeout(() => this.navigation.style.display = 'none', 500)
+    }
   })
-}
+  }
 }
 
 const burger = new BurgerMenu('.burger-menu', '.header', '.nav__ul', 'main', 'flex', '20px', '50px');

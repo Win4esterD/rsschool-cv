@@ -80,4 +80,8 @@ hr{
   .contact-info__info{
     font-size: 0.7em;
   }
+
+  .introduction{
+    margin: 2em 0 0 var(--main-margin-left);
+  }
 }
