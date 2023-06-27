@@ -1,0 +1,23 @@
+const flags = [
+  "Argentina",
+  "Beliz",
+  "Bolivia",
+  "Chile",
+  "Colombia",
+  "Costa rica",
+  "Cuba",
+  "Dominicana",
+  "Ecuador",
+  "Guatemala",
+  "Honduras",
+  "Mexico",
+  "Nikaragua",
+  "Panama",
+  "Paraguay",
+  "Peru",
+  "Puerto rico",
+  "Salvador",
+  "Spain",
+  "Uruguay",
+  "Venezuela"
+]
