@@ -1,0 +1,42 @@
+.education__wrapper{
+  margin-left: var(--main-margin-left);
+  width: var(--main-width);
+}
+
+.education__table{
+  width: var(--main-width);
+}
+
+.education__thead{
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.education__th{
+  text-align: center;
+  padding: 0.4em 0.8em;
+  border: 1px solid #dfe2e5;
+}
+
+.education__td{
+  border: 1px solid #dfe2e5;
+  text-align: center;
+  padding: 0.2em 0em;
+}
+
+.education__tr:nth-child(even){
+  background: var(--even-cell-background);
+}
+
+@media (max-width: 414px){
+  .education__table{
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 443px){
+  .education__table{
+    font-size: 0.8em;
+  }
+}
