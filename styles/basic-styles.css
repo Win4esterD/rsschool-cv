@@ -1,0 +1,23 @@
+*{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-family: var(--main-font-family);
+}
+
+a{
+  color: #0366d6;
+  text-decoration: none;
+  transition: .5s;
+}
+
+a:hover{
+  color: rgb(232, 155, 14);
+}
+
+.article{
+  width: var(--main-width);
+}
+
+.divider{
+  margin-left: var(--main-margin-left);
+}
